@@ -77,15 +77,15 @@
 
 ####	1.4.1 Java 1.6及之前
 
-![image-20201212141106557](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20201212141106557.png)
+![image-20201212141106557](https://raw.githubusercontent.com/LeoMao0808/weekly-notes/4b8ba1850139f1293e166bc6ad3f76794cddae3a/resource/jvm-imgs/image-20201212141106557.png)
 
 #### 1.4.2 Java 1.7
 
-![image-20201212141136752](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20201212141136752.png)
+![image-20201212141136752](https://raw.githubusercontent.com/LeoMao0808/weekly-notes/4b8ba1850139f1293e166bc6ad3f76794cddae3a/resource/jvm-imgs/image-20201212141136752.png)
 
 ####	1.4.3 Java 1.8
 
- 					![image-20201212141435330](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20201212141435330.png)
+![image-20201212141435330](https://raw.githubusercontent.com/LeoMao0808/weekly-notes/4b8ba1850139f1293e166bc6ad3f76794cddae3a/resource/jvm-imgs/image-20201212141435330.png)
 
 ##	2. 虚拟机对象
 
@@ -145,13 +145,13 @@
 
 ​		Java堆中将可能划分出一块内存用来作为句柄池，reference中存储的就是对象的句柄地址，而句柄中包含对象的实例数据以及类型数据各自具体的地址信息。
 
-![image-20201214124740312](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20201214124740312.png)
+![image-20201214124740312](https://raw.githubusercontent.com/LeoMao0808/weekly-notes/4b8ba1850139f1293e166bc6ad3f76794cddae3a/resource/jvm-imgs/image-20201214124740312.png)
 
 ####	2.3.2 直接指针访问对象
 
 ​		Java堆中对象的内存布局就必须考虑如何放置访问类型数据的相关信息，referece中存储的直接就是对象地址，如果只访问对象本身的话，就不需要多一次间接访问的开销。
 
-![image-20201214125107781](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20201214125107781.png)
+![image-20201214125107781](https://raw.githubusercontent.com/LeoMao0808/weekly-notes/4b8ba1850139f1293e166bc6ad3f76794cddae3a/resource/jvm-imgs/image-20201214125107781.png)
 
 ####	2.3.3 优缺点
 
